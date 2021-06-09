@@ -9,7 +9,7 @@ class MP3Importer
   end 
   
   def files
-    @files ||= Dir.glob("#{@path}/*.mp3").select {|file| file.gsub("")
+    @files ||= Dir.glob("#{@path}/*.mp3").select {|file| file.gsub("${path}")
     binding.pry
     
      
