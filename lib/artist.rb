@@ -22,7 +22,7 @@ class Artist
   end 
   
   def self.find_or_create_by_name(name)
-    artists = @@all.select {|artist| artist == name}
+    artists = @@all.select {|artist| artist.name == name}
     if artists == []
       new_artist = Artist.new(name)
       new_artist
