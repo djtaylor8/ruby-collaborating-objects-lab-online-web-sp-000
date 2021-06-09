@@ -10,8 +10,8 @@ class MP3Importer
   
   def files
     files = Dir.entries(".")
-    files
-    binding.pry 
+    
+     
   end
   
   def import
