@@ -23,10 +23,10 @@ class Artist
   
   def self.find_or_create_by_name(name)
     if @@all.include?(name)
-      new_artist = Artist.new(name)
-      new_artist
+      name 
     else
-      @name  
+      new_artist = Artist.new(name)
+      new_artist  
     end
     binding.pry 
   end 
