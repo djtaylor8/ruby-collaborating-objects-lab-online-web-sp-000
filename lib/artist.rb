@@ -27,7 +27,7 @@ class Artist
       new_artist = Artist.new(name)
       new_artist
     else
-      artist.name
+      self
     end
   end 
   
