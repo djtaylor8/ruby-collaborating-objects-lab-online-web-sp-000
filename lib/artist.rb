@@ -28,6 +28,7 @@ class Artist
       new_artist
     else
       self
+      binding.pry 
     end
   end 
   
