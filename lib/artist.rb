@@ -29,6 +29,7 @@ class Artist
     else
       @name  
     end
+    binding.pry 
   end 
   
   def print_songs
