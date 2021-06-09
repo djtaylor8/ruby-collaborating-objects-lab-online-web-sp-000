@@ -22,7 +22,7 @@ class Song
   end
   
   def artist_name=(name)
-    new_artist = self.new(name)
+    self.artist = 
     
   end 
   
