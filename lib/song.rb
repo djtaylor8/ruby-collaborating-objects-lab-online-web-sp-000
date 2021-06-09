@@ -22,7 +22,7 @@ class Song
   end
   
   def artist_name=(name)
-    self.artist = 
+    self.artist = Artist.find_by_
     
   end 
   
