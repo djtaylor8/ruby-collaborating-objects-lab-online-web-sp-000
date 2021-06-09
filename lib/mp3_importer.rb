@@ -11,6 +11,7 @@ class MP3Importer
   def files
   end
   
-  def import 
+  def import
+    @path 
   end 
 end 
