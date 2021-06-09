@@ -9,7 +9,9 @@ class MP3Importer
   end 
   
   def files
-    Dir[@path]
+    files = Dir[@path*]
+    files
+    binding.pry 
   end
   
   def import
