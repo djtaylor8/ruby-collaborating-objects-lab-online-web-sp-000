@@ -28,8 +28,8 @@ class Artist
       new_artist
     else
       self
-      binding.pry 
     end
+    binding.pry 
   end 
   
   def print_songs
