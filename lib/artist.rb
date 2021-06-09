@@ -22,8 +22,7 @@ class Artist
   end 
   
   def self.find_or_create_by_name(name)
-    artists = @@all
-    binding.pry 
+    @@all.find
   end 
   
   def print_songs
