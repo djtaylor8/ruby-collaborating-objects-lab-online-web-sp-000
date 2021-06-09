@@ -30,6 +30,6 @@ class Artist
   end 
   
   def print_songs
-    Songs.all.
+    Songs.all.select{|song| song}
   end 
 end 
